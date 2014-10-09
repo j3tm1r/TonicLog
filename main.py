@@ -70,6 +70,7 @@ else:
         else:
             notFirst = True
         file.write(json.dumps(line))
+
     file.write('\n]}')
     file.close();
 
